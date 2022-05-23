@@ -1,5 +1,5 @@
 function comparaNumeros(num1, num2) {
-    var soma = num1 + num2;
+    const SOMA = num1 + num2;
     if (num1 === num2) {
         var iguais = "iguais";
     } else {
@@ -17,4 +17,4 @@ function comparaNumeros(num1, num2) {
     };
     return`Os numeros ${num1} e ${num2} são ${iguais}, sua soma é ${soma}, que é ${maior} que 10 e ${menor} que 20.`;
 }
-console.log(comparaNumeros(1,2));
+console.log(comparaNumeros(2,2));
